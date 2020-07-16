@@ -1,0 +1,48 @@
+{
+    "name": "maksimovichd/observer-php",
+    "type": "library",
+    "description": "Механизм подписки, позволяющий одним объектам следить и реагировать на события, происходящие в других объектах.",
+    "keywords": [
+        "maksimovichd",
+        "observer-php",
+        "observer",
+        "design-pattern"
+    ],
+    "homepage": "https://github.com/maksimovichd/observer-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maksimovich Dmitry",
+            "email": "novpf.ru@yandex.ru",
+            "homepage": "https://dmitrylee.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/MaksimovichDV/observer-php/issues"
+    },
+    "require": {
+        "php" : "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maksimovichd\\Observer\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Maksimovichd\\Observer\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
